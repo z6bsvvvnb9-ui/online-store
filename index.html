@@ -3,34 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My nline Store</title>
+    <title>Dark Store</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header>
-        <h1>My nline Store</h1>
+        <div class="logo">My Dark Store</div>
         <div id="cart-btn">🛒 Cart (<span id="cart-count">0</span>)</div>
     </header>
 
+    <section class="hero">
+        <h1>Welcome to the Dark Store</h1>
+        <p>Premium products at the best prices.</p>
+        <button class="hero-btn">Shop Now</button>
+    </section>
+
     <section id="products">
         <div class="product">
-            <img src="https://via.placeholder.com/200" alt="">
+            <img src="https://via.placeholder.com/260" alt="">
             <h3>Product 1</h3>
-            <p>$19.99</p>
+            <p class="price">$19.99</p>
             <button onclick="addToCart('Product 1', 19.99)">Add to Cart</button>
         </div>
+
         <div class="product">
-            <img src="https://via.placeholder.com/200" alt="">
+            <img src="https://via.placeholder.com/260" alt="">
             <h3>Product 2</h3>
-            <p>$29.99</p>
+            <p class="price">$29.99</p>
             <button onclick="addToCart('Product 2', 29.99)">Add to Cart</button>
         </div>
+
         <div class="product">
-            <img src="https://via.placeholder.com/200" alt="">
+            <img src="https://via.placeholder.com/260" alt="">
             <h3>Product 3</h3>
-            <p>$39.99</p>
+            <p class="price">$39.99</p>
             <button onclick="addToCart('Product 3', 39.99)">Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <img src="https://via.placeholder.com/260" alt="">
+            <h3>Product 4</h3>
+            <p class="price">$49.99</p>
+            <button onclick="addToCart('Product 4', 49.99)">Add to Cart</button>
         </div>
     </section>
 
@@ -41,6 +56,6 @@
         <button id="close-cart">Close</button>
     </div>
 
-    <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
